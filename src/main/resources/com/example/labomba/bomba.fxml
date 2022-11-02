@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane id="slider" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="695.0" prefWidth="1063.0" styleClass="slider" stylesheets="@bombaCSS.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.labomba.bombaController">
+   <children>
+      <ImageView fx:id="sombrerow" fitHeight="100.0" fitWidth="132.0" layoutX="252.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@n1437365.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="sliderV" layoutX="611.0" layoutY="45.0" min="-100.0" orientation="VERTICAL" prefHeight="281.0" prefWidth="14.0" stylesheets="@bombaCSS.css" />
+      <Slider fx:id="sliderH" layoutX="51.0" layoutY="347.0" min="-100.0" prefHeight="38.0" prefWidth="506.0" />
+      <Label fx:id="posHlabel" layoutX="93.0" layoutY="433.0" prefHeight="39.0" prefWidth="87.0">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="posVlabel" layoutX="93.0" layoutY="504.0" prefHeight="39.0" prefWidth="87.0">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
