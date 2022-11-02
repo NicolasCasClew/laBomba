@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<Pane id="slider" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="695.0" prefWidth="1063.0" styleClass="slider" stylesheets="@bombaCSS.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.labomba.bombaController">
+<Pane id="slider" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="698.0" prefWidth="1063.0" styleClass="slider" stylesheets="@bombaCSS.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.labomba.bombaController">
    <children>
       <ImageView fx:id="sombrerow" fitHeight="100.0" fitWidth="132.0" layoutX="252.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
          <image>
